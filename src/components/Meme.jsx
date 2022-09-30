@@ -23,6 +23,8 @@ function Meme() {
     setMeme((prevState) => ({
       ...prevState,
       randomImage: newUrl,
+      bottomText: "",
+      topText: "",
     }));
   };
   const handleChange = (e) => {
